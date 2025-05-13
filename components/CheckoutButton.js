@@ -32,7 +32,7 @@ export default function CheckoutButton() {
           : cartCount && cartCount > 20
           ? "You cannot have more than 20 items"
           : status === "redirect-error"
-          ? "Unable to redirect to Stripe checkout page"
+          ? "Unable to redirect to checkout page"
           : status === "no-items"
           ? "Please add some items to your cart"
           : null}
