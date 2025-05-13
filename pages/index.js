@@ -8,5 +8,6 @@ export default function Home() {
         <Product product={product} key={product.id} />
       ))}
     </div>
+    
   );
 }

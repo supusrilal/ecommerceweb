@@ -8,7 +8,8 @@ export const products = [
     price: 100,
     emoji: "🍉",
     currency: "GBP",
-  },
+  }, 
+  
   {
     id: "price_1McBPVC4V4bOyW0mqtp8qNLn",
     name: "Apple",

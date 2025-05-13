@@ -13,6 +13,7 @@ export default function App({ Component, pageProps }) {
       successUrl={`${process.env.NEXT_PUBLIC_URL}/success`}
       // Redirected here when you click back on Stripe Checkout (url stored in .env.local file)
       cancelUrl={`${process.env.NEXT_PUBLIC_URL}/?success=false`}
+      
       currency="GBP"
       // Only customers from UK will be able to purchase
       // Having this setting means that we will capture shipping address
